@@ -82,7 +82,7 @@ function Home(Props: any) {
                 <p>{data!.data.kits && data!.data.kits.title}:</p>
               </div>
               <div className="col">
-                {/* <AllKitOptionsHorizontal lg={data!.data.kits.languages} /> */}
+                <AllKitOptionsHorizontal lg={data!.data.kits.languages} />
               </div>
             </section>
             <section className={cx(styles.howToApi)}>

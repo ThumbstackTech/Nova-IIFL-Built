@@ -28,7 +28,9 @@ function NavSectionItem(props: any) {
           <Link href="/Apikits">
             <a
               className={
-                router.pathname == "/Apikits" ? `${cx(styles.menuactive)}` : ""
+                router.pathname.includes("/Apikits")
+                  ? `${cx(styles.menuactive)}`
+                  : ""
               }
             >
               <img
@@ -44,7 +46,9 @@ function NavSectionItem(props: any) {
           <Link href="/Devdocs">
             <a
               className={
-                router.pathname == "/Devdocs" ? `${cx(styles.menuactive)}` : ""
+                router.pathname.includes("/Devdocs")
+                  ? `${cx(styles.menuactive)}`
+                  : ""
               }
             >
               <img

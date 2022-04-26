@@ -289,7 +289,7 @@ function ApiKitComponent(props: Props) {
                   <div className={cx(styles.allKitP)}>
                     <p>{data!.data.kits.title && data!.data.kits.title}</p>
                   </div>
-                  {/* {<AllKitOptionsHorizontal lg={data!.data.kits.languages} />} */}
+                  {<AllKitOptionsHorizontal lg={data!.data.kits.languages} />}
                 </div>
               </section>
               {/* <AllApiFilter data={data!.section_data![0].api_kits_cards!} /> */}
