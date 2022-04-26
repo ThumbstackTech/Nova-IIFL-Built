@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="198.093" height="202.353" viewBox="0 0 198.093 202.353">
+    <defs>
+        <filter id="Path_76978" x="0" y="0" width="194.184" height="200.245" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle_6540" x="43.586" y="47.461" width="154.507" height="154.893" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur-2"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1=".692" y1=".5" x2=".366" y2=".399" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e63add"/>
+            <stop offset="1" stop-color="#0b82af"/>
+        </linearGradient>
+        <style>
+            .cls-1{opacity:.5;fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_26876" data-name="Group 26876">
+        <g style="filter:url(#Path_76978)" transform="translate(.004)">
+            <path id="Path_76978-2" data-name="Path 76978" class="cls-1" d="M28.147 79.369a4.756 4.756 0 0 0 8.859-.039l28.48-72.939A4.68 4.68 0 0 0 61.085 0L4.771.248a4.763 4.763 0 0 0-4.458 6.43z" transform="rotate(30 -39.376 188.93)"/>
+        </g>
+        <g style="filter:url(#Rectangle_6540)" transform="translate(.004)">
+            <rect id="Rectangle_6540-2" data-name="Rectangle 6540" class="cls-1" width="58.893" height="58.507" rx="29" transform="rotate(-90 121.47 29.88)"/>
+        </g>
+    </g>
+</svg>

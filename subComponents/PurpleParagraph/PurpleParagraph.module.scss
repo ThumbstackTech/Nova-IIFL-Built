@@ -1,0 +1,42 @@
+.body {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: #faeeff;
+  border-radius: 2rem;
+  h5 {
+    color: #8100cc;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+  .Title {
+    padding: 1.15rem 1.6rem 1.15rem 2.4rem;
+    display: flex;
+    align-items: center;
+  }
+  .link {
+    padding: 1.8rem 1rem 1.8rem 2.4rem;
+    display: flex;
+    align-items: center;
+    background-color: #fdf7ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    h5 {
+      color: #545556;
+      font-weight: normal;
+      font-size: 14px;
+      p {
+        margin-bottom: 0;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 12px;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      padding-right: 3rem;
+    }
+  }
+}

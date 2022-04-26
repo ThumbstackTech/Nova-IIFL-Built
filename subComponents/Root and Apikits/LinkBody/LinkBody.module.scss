@@ -1,0 +1,43 @@
+.body {
+  margin: 32px 0 0 0;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: #2d3038;
+  border-radius: 2rem;
+  h5 {
+    color: #9fa7b5;
+    margin-bottom: 0;
+  }
+  .Title {
+    padding: 0.9rem 1.6rem 0.9rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .tooltip {
+      position: absolute;
+      padding: 4px 16px;
+      border-radius: 4px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: #fff;
+      width: 113px;
+      height: 25px;
+      left: -36px;
+      top: -60px;
+      font-size: 12px;
+      color: #5d5d5d;
+      text-align: center;
+    }
+  }
+  .link {
+    height: 69px;
+    padding: 0 6rem 0 3rem;
+    display: flex;
+    align-items: center;
+    background-color: #414853;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    h5 {
+      color: #fff;
+    }
+  }
+}

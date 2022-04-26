@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="27" viewBox="0 0 24 27">
+    <g data-name="Group 21666">
+        <path data-name="Path 51976" d="M0 0h24v24H0z" style="fill:transparent"/>
+        <path data-name="Path 51977" d="M18.2 5.789h-3.6V3.895A1.843 1.843 0 0 0 12.8 2H9.2a1.843 1.843 0 0 0-1.8 1.895v1.894H3.8a1.835 1.835 0 0 0-1.791 1.895L2 18.105A1.843 1.843 0 0 0 3.8 20h14.4a1.843 1.843 0 0 0 1.8-1.895V7.684a1.843 1.843 0 0 0-1.8-1.895zm-5.4 0H9.2V3.895h3.6z" transform="translate(1.042 1.042)" style="fill:none;stroke:#ff6000"/>
+        <text data-name="₹" transform="translate(11.66 21)" style="fill:#fd8034;font-size:16px;font-family:Poppins-Medium,Poppins;font-weight:500"><tspan x="0" y="0">₹</tspan></text>
+    </g>
+</svg>

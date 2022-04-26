@@ -1,0 +1,137 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f6fb;
+  overflow: hidden;
+  height: 91vh;
+  .errorcard {
+    width: 987px;
+    height: 533px;
+    border-radius: 40px;
+    box-shadow: 40px 40px 99px 0 rgba(0, 0, 0, 0.116);
+    background-color: #fff;
+    padding: 80px 0 80px 63px;
+    overflow: hidden;
+    margin: 60px 0 80px 0;
+    h1 {
+      font-size: 100px;
+      font-weight: 600;
+
+      color: #000d4c;
+      @media screen and (max-width: 767px) {
+        font-size: 64px;
+      }
+    }
+    h4 {
+      opacity: 0.74;
+      margin-top: 10px;
+      font-size: 24px;
+      color: #000;
+      @media screen and (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+    p {
+      opacity: 0.55;
+      font-size: 16px;
+      color: #000;
+      @media screen and (max-width: 767px) {
+        font-size: 12px;
+      }
+    }
+    button {
+      padding: 8px 20px;
+      border-radius: 18px;
+      box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+      background-color: #ff7623;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 70px;
+      border: none;
+    }
+    .overlay {
+      position: absolute;
+      // top: 0;
+      bottom: -5px;
+      right: 0;
+      width: 100%;
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+    .overlayText {
+      position: absolute;
+      right: 7%;
+      bottom: 30%;
+      h5 {
+        opacity: 0.7;
+        line-height: 0.7;
+        font-size: 120px;
+        font-weight: bold;
+        color: #52a0fa;
+      }
+      p {
+        opacity: 0.68;
+        font-size: 33px;
+        font-weight: bold;
+        color: linear-gradient(281deg, #ed0a86 100%, #fff300 -23%);
+        background: #fff300;
+        background: -webkit-linear-gradient(to right, #fff300 0%, #ed0a86 78%);
+        background: -moz-linear-gradient(to right, #fff300 0%, #ed0a86 78%);
+        background: linear-gradient(to right, #fff300 0%, #ed0a86 28%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      background-color: #f7f6fb;
+      box-shadow: none;
+      margin-top: 0;
+      padding-left: 24px;
+    }
+  }
+  .overlayMobile {
+    display: none;
+    position: absolute;
+    // top: 0;
+    bottom: -110px;
+    right: -105px;
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+  .overlayTextmobile {
+    display: none;
+    position: absolute;
+    right: 12%;
+    bottom: 12%;
+    h5 {
+      opacity: 0.7;
+      line-height: 0.7;
+      font-size: 70px;
+      font-weight: bold;
+      color: #52a0fa;
+    }
+    p {
+      opacity: 0.68;
+      font-size: 23px;
+      font-weight: bold;
+      color: linear-gradient(281deg, #ed0a86 100%, #fff300 -23%);
+      background: #fff300;
+      background: -webkit-linear-gradient(to right, #fff300 0%, #ed0a86 78%);
+      background: -moz-linear-gradient(to right, #fff300 0%, #ed0a86 78%);
+      background: linear-gradient(to right, #fff300 0%, #ed0a86 28%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+}

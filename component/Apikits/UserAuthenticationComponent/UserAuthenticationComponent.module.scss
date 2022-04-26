@@ -1,0 +1,739 @@
+.wrapper {
+  .mainContent {
+    background-color: #f7f6fb;
+    width: 100%;
+    z-index: 0;
+    filter: blur(0rem);
+    padding-top: 3.2rem;
+    padding-left: 2rem;
+    border-top-left-radius: 15px;
+  }
+  .activeTab {
+    color: #fff !important;
+    width: fit-content;
+    height: 35px;
+    margin: 0px 5px 0 0px;
+    padding: 8px 20px 6px 20px;
+    border-radius: 30px;
+    background-color: #ff7623;
+  }
+
+  .mainContent p {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+  .mainContent h1 {
+    margin: 0 12px 0 0;
+    font-size: 2rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #000;
+  }
+  .mainContent .item {
+    font-size: 1.3rem;
+    font-weight: normal;
+    background-color: #0b7eaf;
+    border-radius: 10px;
+    color: #fff;
+    margin: 7px 0 4px 5px;
+    padding: 2px 10px 3px;
+    top: -3px;
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .mainContent .cartBody .itemCard {
+    margin: 14px 22px 16px 0;
+    padding: 22px 18px 23px 16px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    border: solid 1px #fff;
+    background-color: #fff;
+  }
+  .mainContent .cartBody .itemCard .icon {
+    align-self: center;
+    width: 17.5rem;
+    height: 17.5rem;
+    margin: 0 24px 0 30px;
+    margin-bottom: -3vw;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    .lockImg {
+      width: 9vw;
+      height: 9vw;
+      min-width: 28px;
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .mainContent .cartBody .itemCard .icon > img {
+    width: 8.5rem;
+    align-self: center;
+  }
+  .tag {
+    margin: 0 0 0 15px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #b0b0b034;
+    font-size: 0.8rem;
+    top: -3px;
+    color: #06c;
+    font-weight: 800;
+  }
+  .successRate {
+    border-left: solid 2px #d4d4d4;
+    border-right: solid 2px #d4d4d4;
+  }
+  .delete p {
+    font-size: 0.85rem;
+    color: #03081e;
+  }
+  .price span:first-child {
+    width: 46px;
+    height: 23px;
+    font-size: 11.5px;
+    padding: 2.6px 5px 3.4px 6px;
+    border-radius: 4px;
+    background-color: #ff772356;
+  }
+  .price h3 {
+    margin-top: 1.5px;
+    width: 53px;
+    font-size: 16.3px;
+    color: #929292;
+    text-decoration: line-through;
+  }
+
+  .cardRightSide .generateButton,
+  #generateKey {
+    width: 161px;
+    margin: 17px 0 0 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.041);
+    background-color: #ff7623;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  .cardRightSide .addToCartButton,
+  #addToCart {
+    width: 161px;
+    margin: 10px 0 0 5px;
+    padding: 8px 8px 6px 8px;
+    border: solid 1px #ff7623;
+    border-radius: 30px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.041);
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff7623;
+  }
+  .cardRightSide .addToCartButton img {
+    top: -2px;
+    margin-right: 5px;
+  }
+  .cartBody .deleteSecond {
+    display: none;
+  }
+  .container1 {
+    padding: 2rem 3.5rem 0 0;
+  }
+
+  .futureContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /* width: 1200px; */
+  }
+
+  .futureContainer .row1 {
+    display: grid;
+    grid-template-columns: 2fr 0.8fr 0.88fr;
+    gap: 2.5rem;
+  }
+  .futureContainer div > div {
+    border-radius: 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  .futureContainer h3 {
+    margin: 35px 0 20px 40px;
+    opacity: 0.87;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .futureContainer h5 {
+    margin: 13px 0 0 40px;
+    opacity: 0.87;
+    font-weight: 600;
+    color: #212c63;
+  }
+  .futureContainer p {
+    margin: 24px 0 24px 40px;
+    opacity: 0.38;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    color: #000;
+  }
+  .futureContainer a {
+    margin: 0 0 0 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.26px;
+    color: #06c;
+  }
+  .langGrid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+  }
+  .langGrid img,
+  .php,
+  .golang {
+    width: 40px;
+    height: 40px;
+  }
+  .langGrid p {
+    margin: 3px 0 0;
+    opacity: 0.42;
+    font-size: 10px;
+    font-weight: 500;
+    color: #03081e;
+  }
+  .buildGuide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 102%;
+    height: 102%;
+    z-index: 1;
+    background: linear-gradient(
+      210deg,
+      rgba(244, 92, 87, 0) 0%,
+      rgba(243, 94, 86, 1) 73%,
+      rgba(255, 118, 35, 1) 100%
+    );
+  }
+  .allKits {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.5rem 0 7rem 0;
+  }
+  .allKitP {
+    align-self: flex-start;
+  }
+  .allKits .allKitP p {
+    font-size: clamp(16px, 2rem, 2rem);
+    font-weight: 600;
+    color: #000d4c;
+  }
+  .allKits .container1 {
+    overflow: scroll;
+    width: 100%;
+  }
+
+  .allKits .allKitOptions {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .mostUsed {
+    flex: 0 0 8.2rem;
+    height: 12rem;
+    border-radius: 1.6rem;
+  }
+
+  .mostUsed p {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .allKits .allKitOptions .card {
+    display: grid;
+    border-radius: 1.4rem;
+    width: 72.5px;
+    flex: 0 0 10.6rem;
+    height: 80px;
+    background-color: #ffff;
+    padding: 0.8rem 1.4rem;
+    box-sizing: border-box;
+    border: none;
+    justify-content: space-around;
+  }
+
+  .card > img {
+    align-self: center;
+    width: 6rem;
+  }
+
+  .card > p {
+    color: #03081e;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+  }
+  .apiIncluded {
+    padding: 4rem 2.9rem 0 0;
+    width: 100%;
+  }
+  .apiIncludedHeader {
+    width: 50% !important;
+    margin-left: 35px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.48px !important;
+    font-size: clamp(16px, 2rem, 2rem) !important;
+    @media screen and (max-width: '767px') {
+      margin-left: 0 !important;
+    }
+  }
+  .apiIncluded .tab {
+    width: 326px;
+    margin: 25px 0 15px 10px;
+    // padding: 0 20px 0 20px;
+    border-radius: 30px;
+    background-color: #fff;
+    & > div {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      height: 35px;
+      margin: 0px 5px 0 0px;
+      padding: 8px 20px 6px 20px;
+      border-radius: 30px;
+    }
+  }
+  .apiIncluded .tab a {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .apiIncluded .tab .forPlatform {
+    width: 140px;
+    height: 36px;
+    margin: 0 20px 0 20px;
+    padding: 8px 20px 6px 20px;
+    border-radius: 30px;
+    background-color: #ff7623;
+  }
+  .apiIncluded .apiIncludedCards .itemCard {
+    margin-bottom: 40px;
+  }
+
+  .apiIncluded .itemCard h3 {
+    margin: 0 0 10px 10px;
+    opacity: 0.87;
+    font-size: clamp(16px, 2rem, 2rem);
+    font-weight: 600;
+    color: #000;
+  }
+  .apiIncluded .itemCard .tag {
+    margin: 0 0 0 10px;
+    padding: 2px 8px;
+    opacity: 0.91;
+    border-radius: 4px;
+    background-color: #1f1e1e;
+    font-size: 1.3rem;
+    color: #18e0ff;
+    font-weight: 600;
+  }
+  .apiIncluded .itemCard .tag:nth-of-type(2) {
+    background-color: #a0a0a049;
+    color: #fd681f;
+  }
+
+  .apiDocCta button {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 5px 25px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.014);
+    border: solid 1.6px #06c;
+    color: #06c;
+    line-height: 1.67;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .apiDocCta img {
+    margin-top: -2.5px;
+  }
+
+  .apiIncluded .apiKits {
+    margin: 15px 0 0 0;
+    padding: 24px 0 30px 24px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.04);
+    border: solid 1px #fff;
+    background-color: #fff;
+  }
+
+  .mainContent .cartBody .apiKits p {
+    margin: 0 0 22px 0;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    line-height: 1.5;
+    color: #1d1d1d;
+  }
+
+  .apiKits .apiMenu ul li {
+    margin: 20px 0;
+  }
+  .apiKits .apiMenu ul li a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 25px;
+    color: #919191b4;
+  }
+  .container1::-webkit-scrollbar,
+  .cardContainer2::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .container1 {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .relatedApi {
+    margin: 0 30px 60px 0;
+    width: 22vw;
+    height: 25vw;
+  }
+  #algoStrategies {
+    margin-top: 5vw;
+  }
+  .sectionHeading {
+    font-size: clamp(24px, 2.8rem, 2.8rem) !important;
+    letter-spacing: -0.02rem !important;
+    font-weight: 600 !important;
+    color: #000d4c !important;
+  }
+  .upperRow {
+    padding-right: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8rem;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #0066cc;
+    gap: 1.6rem;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+  .algoStrategiesHeading {
+    padding: 0;
+    color: #000d4c;
+  }
+
+  .viewAllButton {
+    color: #0066cc;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .buttonsLi {
+    color: #888888;
+    font-size: 2rem;
+    // padding: 0.4rem 1.4rem 0.4rem 1.4rem;
+    border-radius: 50%;
+    background-color: #efefef;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
+
+  .buttonsLiImg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .adjust {
+    left: -3rem !important;
+  }
+
+  .apiCards {
+    width: 330px;
+    min-width: 240px;
+    height: 340px;
+    margin: 25px 24px 1px 0;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+  }
+  // .cards {
+  //   margin: 2vw 2vw 5vw 1vw !important;
+  // }
+  /* .apiCardsSection {
+  left: -20px;
+} */
+  .owl-carousel .owl-item img {
+    display: inline !important;
+    width: auto !important;
+  }
+  #owlKeyImg {
+    width: 32px !important;
+  }
+  #owl-server-img {
+    width: 40px !important;
+  }
+  .owl-stage-outer {
+    width: 81vw !important;
+    left: -20px;
+    height: 120%;
+  }
+  .owl-nav {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-right: 6vw;
+    top: -525px;
+    margin-left: 60vw;
+  }
+  .owl-nav button {
+    margin: 0 20px !important;
+    /* top: -55.7vh; */
+  }
+  // .apiCards .cardContent {
+  //   padding: 30px 80px 38px 26px;
+  // }
+  // .apiCards .cardContent .free {
+  //   width: 44px;
+  //   height: 24px;
+  //   margin: 0 0 0 16px;
+  //   padding: 4px 10px;
+  //   border-radius: 20px;
+  //   background-color: #daf3e0;
+  //   color: #016e4a;
+  //   font-weight: 600;
+  //   font-size: 11px;
+  // }
+  .generateKeyButton {
+    margin-top: 30px;
+  }
+  .generateKeyButton button {
+    margin: 0 29px 0 0;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+    background-color: #06c;
+    color: #fff;
+  }
+  .generateKey {
+    width: 100%;
+    padding: 20px 24px 15px 24px;
+    box-shadow: 0 -3px 32px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .generateKey button {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+    background-color: #ff7623;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+  }
+
+  @media (max-width: 1200px) {
+    .owl-nav,
+    .relatedApi #viewAll {
+      display: none !important;
+    }
+  }
+  @media (max-width: 1095px) {
+    .integrationSupport {
+      display: none;
+    }
+    .allKits {
+      display: flex;
+    }
+    .futureContainer .row1 {
+      grid-template-columns: 2fr 0.88fr;
+    }
+  }
+  @media (max-width: 767px) {
+    .forPlatformContainer {
+      display: none;
+    }
+    .apiIncluded {
+      padding-right: 0 !important;
+    }
+    #topCard {
+      padding: 0 0 0 7px !important;
+      background-color: #f7f6fb !important;
+      border: none !important;
+    }
+    #topCard .icon {
+      display: flex;
+      justify-content: center;
+      padding: 0 !important;
+      margin-left: 0 !important;
+      margin-bottom: 0 !important;
+      margin-right: 10px !important;
+      align-self: auto !important;
+    }
+    .itemCard .icon img {
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .futureContainer h3 {
+      margin: 20px 0 0 20px !important;
+      font-size: 16px !important;
+    }
+    .futureContainer h5 {
+      font-size: 1.4rem !important;
+    }
+    .futureContainer p {
+      font-size: 10px !important;
+    }
+    .futureContainer a {
+      font-size: 10px !important;
+    }
+    .futureContainer h5,
+    .futureContainer p,
+    .futureContainer a {
+      margin-left: 20px !important;
+    }
+
+    .generateKey h2 {
+      font-size: 2.5rem;
+    }
+    .generateKey h4 {
+      font-size: 1.8rem;
+    }
+    .generateKey button {
+      font-size: 20px;
+    }
+    .itemCard .icon {
+      width: 62px !important;
+      height: 62px !important;
+      padding: 0 !important;
+      border-radius: 13px !important;
+      align-self: auto !important;
+    }
+    .itemCard .icon img {
+      width: 28px !important;
+    }
+    #topCard .tag {
+      display: none;
+    }
+    #topCard .delete {
+      display: none !important;
+    }
+    .cartBody .deleteSecond {
+      margin: 10px 0 20px 0;
+      display: block;
+    }
+    .apiIncluded .tabContainer {
+      padding-left: 0 !important;
+    }
+
+    .apiIncluded .tab {
+      margin-left: 0 !important;
+      margin-top: 10px !important;
+      width: 100% !important;
+      justify-content: space-around !important;
+    }
+    .apiIncluded h1 {
+      margin-left: 0 !important;
+    }
+    .apiIncluded .itemCard #apiTypeTitle {
+      margin-left: 0 !important;
+    }
+    .apiIncludedCards .itemCard h5 {
+      padding-left: 0 !important;
+    }
+    .apiIncluded .apiIncludedCards .itemCard {
+      margin-right: 0 !important;
+    }
+    .apiDocCta {
+      margin-top: 15px !important;
+    }
+    .apiDocCta a,
+    .apiDocCta button {
+      font-size: 11px !important;
+    }
+    .apiCardsSection .apiCards {
+      width: 240px !important;
+      height: 301px;
+    }
+    .apiCardsSection .apiCards .cardContent {
+      padding: 24px 20px !important;
+    }
+    .apiCardsSection .apiCards .cardContent p {
+      font-size: 11px !important;
+    }
+    .generateKeyButton button {
+      margin-right: 10px !important;
+    }
+  }
+
+  @media (min-width: 360px) and (max-width: 480px) {
+    #firstTitle {
+      width: 70%;
+    }
+  }
+  @media (min-width: 480px) and (max-width: 576px) {
+    #delete {
+      justify-content: space-around !important;
+    }
+    #success {
+      padding: 0 6rem !important;
+    }
+  }
+  @media (max-width: 373px) {
+    .cardTitle {
+      width: 147px;
+    }
+  }
+}

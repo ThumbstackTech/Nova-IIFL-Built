@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+    <g data-name="Group 26279">
+        <g data-name="Group 25064">
+            <g data-name="Rectangle 6002" style="fill:#fff;stroke:#eaeaea">
+                <rect width="55" height="55" rx="12" style="stroke:none"/>
+                <rect x=".5" y=".5" width="54" height="54" rx="11.5" style="fill:none"/>
+            </g>
+        </g>
+        <path data-name="Path 76940" d="M27.074 12.537h-1.648v-3.3a8.241 8.241 0 0 0-16.482 0v3.3H7.3a3.306 3.306 0 0 0-3.3 3.3v16.478a3.306 3.306 0 0 0 3.3 3.3h19.774a3.306 3.306 0 0 0 3.3-3.3V15.834a3.306 3.306 0 0 0-3.3-3.297zm-9.889 14.834a3.3 3.3 0 1 1 3.3-3.3 3.306 3.306 0 0 1-3.3 3.3zm5.109-14.834H12.076v-3.3a5.109 5.109 0 0 1 10.219 0z" transform="translate(9.83 9.812)" style="fill:#02b5b5"/>
+    </g>
+</svg>

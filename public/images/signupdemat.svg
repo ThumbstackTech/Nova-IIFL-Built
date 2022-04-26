@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="662" height="329" viewBox="0 0 662 329">
+    <defs>
+        <clipPath id="viref7uf7a">
+            <rect data-name="Rectangle 6911" width="662" height="329" rx="20" transform="translate(334 137)" style="fill:#fff"/>
+        </clipPath>
+        <clipPath id="njdhb3lngb">
+            <path data-name="Union 1" d="M-4634-482h-93v-8h90v-46h88v54z" transform="translate(5596 837)" style="stroke:#707070;fill:#fff"/>
+        </clipPath>
+        <clipPath id="ma4cnhpktc">
+            <path data-name="Rectangle 6969" transform="translate(11668 -383)" style="stroke:#f4b35a;fill:#fff" d="M0 0h135v71H0z"/>
+        </clipPath>
+        <filter id="bvmajr2wpd" x="489" y="164" width="270" height="240" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="dv7u873u7f" x="566" y="186" width="116" height="116" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur-2"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="qqu93o1doe" x1="1" y1=".955" x2="-.24" y2="-.123" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ed0a86"/>
+            <stop offset="1" stop-color="#fff300"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 27989">
+        <g data-name="Group 14471" transform="translate(-334 -137)" style="clip-path:url(#viref7uf7a)">
+            <g data-name="Group 27883">
+                <g data-name="Mask Group 14487" style="clip-path:url(#njdhb3lngb)" transform="translate(20 -14)">
+                    <g data-name="Mask Group 14483" transform="translate(-10787 667)" style="clip-path:url(#ma4cnhpktc)">
+                        <g data-name="Rectangle 6968" transform="translate(11682 -348)" style="opacity:.5;stroke-width:10px;fill:none;stroke:#f4b35a">
+                            <rect width="106" height="100" rx="16" style="stroke:none"/>
+                            <rect x="5" y="5" width="96" height="90" rx="11" style="fill:none"/>
+                        </g>
+                    </g>
+                </g>
+                <g style="filter:url(#bvmajr2wpd)">
+                    <rect data-name="Rectangle 6967" width="174" height="144" rx="16" transform="translate(871 346)" style="fill:url(#qqu93o1doe);opacity:.5"/>
+                </g>
+                <path data-name="Rectangle 6971" transform="translate(871 377)" style="fill:#fff" d="M0 0h174v3H0z"/>
+                <g style="filter:url(#dv7u873u7f)">
+                    <rect data-name="Rectangle 6970" width="20" height="20" rx="2" transform="translate(948 368)" style="fill:url(#qqu93o1doe);opacity:.5"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

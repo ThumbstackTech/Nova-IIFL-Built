@@ -1,0 +1,66 @@
+.itemCard {
+  margin: 14px 22px 16px 0;
+  padding: 22px 18px 23px 16px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border: solid 1px #fff;
+  background-color: #fff;
+  margin-bottom: 40px;
+  h3 {
+    margin: 0 0 10px 10px;
+    opacity: 0.87;
+    font-size: clamp(16px, 2rem, 2rem);
+    font-weight: 600;
+    color: #000;
+  }
+  .tag {
+    margin: 0 0 0 10px;
+    padding: 2px 8px;
+    opacity: 0.91;
+    border-radius: 4px;
+    background-color: #1f1e1e;
+    font-size: 1.3rem;
+    top: -3px;
+    color: #18e0ff;
+    font-weight: 600;
+    &:nth-of-type(2) {
+      background-color: #a0a0a049;
+      color: #fd681f;
+    }
+  }
+}
+.apiDocCta button {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 5px 25px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.014);
+  border: solid 1.6px #06c;
+  color: #06c;
+  line-height: 1.67;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.apiDocCta img {
+  margin-top: -2.5px;
+}
+@media screen and (max-width: 480px) {
+  .itemCard #apiTypeTitle {
+    margin-left: 0 !important;
+  }
+  .itemCard {
+    margin-right: 0 !important;
+    h5 {
+      padding-left: 0 !important;
+    }
+  }
+  .apiDocCta {
+    margin-top: 15px !important;
+    a,
+    button {
+      font-size: 11px !important;
+    }
+  }
+}

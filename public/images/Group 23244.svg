@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.001" height="57" viewBox="0 0 64.001 57">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".23" y1="-.153" x2=".624" y2=".853" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" stop-opacity=".82"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_23244" data-name="Group 23244" transform="translate(-933.956 -202.638)">
+        <g id="Group_23242" data-name="Group 23242" transform="translate(959.263 203)">
+            <path id="Union_47" data-name="Union 47" class="cls-1" d="M0 57V44.9a19.5 19.5 0 0 1 39 0V57zm19.482-33.861a11.569 11.569 0 0 1 0-23.139h.035a11.569 11.569 0 1 1 0 23.139z" transform="translate(-.305 -.361)"/>
+        </g>
+        <g id="Group_23243" data-name="Group 23243" transform="translate(934 216.459)">
+            <path id="Union_47-2" data-name="Union 47" class="cls-1" d="M0 37v-8.015a12.5 12.5 0 1 1 25 0V37zM5.072 7.592v-.164a7.428 7.428 0 0 1 14.855 0v.165a7.428 7.428 0 0 1-14.855 0z" transform="translate(-.044 .18)"/>
+        </g>
+    </g>
+</svg>

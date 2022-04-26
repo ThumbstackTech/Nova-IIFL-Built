@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="integration_instructions_black_24dp" transform="translate(0 -.446)">
+        <path id="Rectangle_5601" data-name="Rectangle 5601" class="cls-1" transform="translate(0 .446)" d="M0 0h24v24H0z"/>
+        <circle id="Ellipse_1863" data-name="Ellipse 1863" class="cls-1" cx=".493" cy=".493" r=".493" transform="translate(11.69 1.923)"/>
+        <circle id="Ellipse_1864" data-name="Ellipse 1864" class="cls-1" cx=".493" cy=".493" r=".493" transform="translate(11.69 1.923)"/>
+        <circle id="Ellipse_1865" data-name="Ellipse 1865" class="cls-1" cx=".493" cy=".493" r=".493" transform="translate(11.69 1.923)"/>
+        <path id="Path_19366" data-name="Path 19366" d="M17.222 2.8h-3.715a2.645 2.645 0 0 0-5.013 0H4.778a1.539 1.539 0 0 0-.356.036 1.778 1.778 0 0 0-.9.5 1.8 1.8 0 0 0-.382.576A1.752 1.752 0 0 0 3 4.6v12.6a1.866 1.866 0 0 0 .142.7 1.909 1.909 0 0 0 .382.576 1.778 1.778 0 0 0 .9.5 2.279 2.279 0 0 0 .354.024h12.444A1.794 1.794 0 0 0 19 17.2V4.6a1.794 1.794 0 0 0-1.778-1.8zm-7.111 10.053-1.253 1.278L5.667 10.9l3.191-3.231 1.253 1.278L8.182 10.9zM11 3.925a.675.675 0 1 1 .667-.675.676.676 0 0 1-.667.675zm2.142 10.206-1.253-1.278 1.929-1.953-1.929-1.953 1.253-1.278 3.191 3.231z" transform="translate(1.182 2.446)" style="stroke:#ff6000;stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+    </g>
+</svg>

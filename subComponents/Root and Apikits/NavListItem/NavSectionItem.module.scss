@@ -1,0 +1,30 @@
+.menuactive{
+    color: #ff7623 !important;
+  }
+  #menuimg{
+    width: 2.4rem !important;
+    height: 2.4rem !important;   
+}
+.comingsoondiv{
+  display: flex;
+}
+.commingsoon{
+  width: 90px;
+  height: 20px;
+  padding: 4.1px 6.6px 4.3px 8.6px;
+  border-radius: 4px;
+  background-color: #ffe8f4;
+  margin-left: auto;
+  margin-right: 10px;
+  top: 50%;
+  transform: translateY(50%);
+}
+.menucoming{
+  margin-bottom: 0;
+  font-weight: bold;
+  background: linear-gradient(261deg, #f80078 15%, #5e0db6 42%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10px;
+  font-weight: bold;
+}

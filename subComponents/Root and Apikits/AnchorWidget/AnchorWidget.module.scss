@@ -1,0 +1,81 @@
+.apiKits {
+  margin: 15px 0 0 0;
+  padding: 24px 0 30px 24px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 3px 32px 0 rgba(0, 0, 0, 0.04);
+  border: solid 1px #fff;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  p {
+    margin: 0 0 22px 0 !important;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+    color: #1d1d1d !important;
+    @media screen and (max-width: 576px) {
+      font-size: 14px !important;
+    }
+  }
+  .apiMenu {
+    display: flex;
+    .slider {
+      width: 8px;
+      height: inherit;
+      background-color: #efefef;
+      border-radius: 4px;
+      // transition: all 0.5s;
+      .sliderInner {
+        height: 25px;
+        border-radius: 4px;
+        background-color: #0066cc;
+        transition: all 0.5s;
+      }
+    }
+  }
+  .apiMenu .heading {
+    margin-top: -7px !important;
+    margin-bottom: 0;
+  }
+  .apiMenu ul li {
+    // margin: 2px 0 0 0;
+    a {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-left: 20px;
+      color: #919191b4;
+      line-height: 2.83;
+      cursor: pointer;
+
+      &:first-child {
+        margin-top: 5px;
+      }
+      @media screen and (max-width: 576px) {
+        font-size: 11px !important;
+      }
+    }
+    .subTags {
+      margin-left: 15px;
+    }
+  }
+
+  .activeTab {
+    color: #0066cc !important;
+  }
+  .apiMenu::-webkit-scrollbar {
+    width: 8px;
+    height: 40px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0066cc;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #efefef;
+    border-radius: 10px;
+  }
+}

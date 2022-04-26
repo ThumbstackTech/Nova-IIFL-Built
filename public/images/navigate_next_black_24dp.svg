@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g transform="rotate(180 15 15)">
+        <path data-name="Path 76772" d="M0 0h30v30H0z" style="fill:none"/>
+        <ellipse data-name="Ellipse 2024" cx="14.42" cy="14.019" rx="14.42" ry="14.019" transform="translate(0 .801)" style="fill:#efefef"/>
+        <path data-name="Path 76773" d="M1.763 0 0 1.762 5.725 7.5 0 13.238 1.763 15l7.5-7.5z" transform="translate(10.59 7.32)" style="fill:#888"/>
+    </g>
+</svg>

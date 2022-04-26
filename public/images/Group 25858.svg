@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="185.008" height="202.17" viewBox="0 0 185.008 202.17">
+    <defs>
+        <filter id="Rectangle_6480" x="0" y="0" width="185.008" height="183.966" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle_6481" x="38.734" y="61.951" width="141.704" height="140.219" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="16" result="blur-2"/>
+            <feFlood flood-opacity=".078"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1="-.095" y1="-.161" x2=".967" y2=".957" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fef201"/>
+            <stop offset="1" stop-color="#03acef"/>
+        </linearGradient>
+        <style>
+            .cls-1{opacity:.5;fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_25858" data-name="Group 25858">
+        <g style="filter:url(#Rectangle_6480)" transform="translate(-.002 .003)">
+            <rect id="Rectangle_6480-2" data-name="Rectangle 6480" class="cls-1" width="82.344" height="83.467" rx="41.172" transform="rotate(-94 88.868 41.428)"/>
+        </g>
+        <g style="filter:url(#Rectangle_6481)" transform="translate(-.002 .003)">
+            <rect id="Rectangle_6481-2" data-name="Rectangle 6481" class="cls-1" width="41.326" height="42.926" rx="20.663" transform="rotate(-94 115.294 33.799)"/>
+        </g>
+    </g>
+</svg>

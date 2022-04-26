@@ -1,0 +1,95 @@
+.wrapper {
+  margin: 1.2rem 0 1.8rem 0;
+  padding: 18px 20px 18px 24px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: #fff;
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    @media screen and (max-width: 480px) {
+      font-size: 14px;
+    }
+  }
+  h5 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    @media screen and (max-width: 480px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 2.33;
+    letter-spacing: 0.24px;
+    color: #707070;
+    margin-bottom: 0;
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+  hr {
+    width: 1px;
+    height: 17px;
+    color: #adadad;
+    margin: 0;
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
+  }
+  .tagsWrapper {
+    align-items: center;
+    .removed {
+      margin-right: 1.2rem;
+      span {
+        margin: 0 8px 0 0;
+        padding: 1px 8px;
+        border-radius: 4px;
+        background-color: #f5f1cc;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.7;
+        color: #fa9500;
+        @media screen and (max-width: 480px) {
+          font-size: 10px;
+        }
+      }
+    }
+    .added {
+      margin-left: 0.8rem;
+      span {
+        margin: 0 8px 0 0;
+        padding: 1px 8px;
+        border-radius: 4px;
+        background-color: #ccf1f5;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.7;
+        color: #00aafd;
+        @media screen and (max-width: 480px) {
+          font-size: 10px;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        margin-left: 0;
+      }
+    }
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .holding {
+    color: #108cd4;
+    span {
+      padding: 1px 4px;
+      border-radius: 10px;
+      background-color: #cce9f5;
+      font-size: 8px;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+  }
+}

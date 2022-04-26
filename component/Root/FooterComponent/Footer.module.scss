@@ -1,0 +1,55 @@
+#footerLogo {
+  width: 250px;
+}
+.footer {
+  padding: 79px 67px 89px 43px;
+  background-color: #f9f9f9;
+}
+.footer h4 {
+  margin: 2px 11px 6.8px 10.8px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: 0.26px;
+  text-align: left;
+  color: #565656;
+}
+.footer h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.footer ul li {
+  margin: 8px 0 0 0;
+}
+.footer ul li a {
+  opacity: 0.32;
+
+  font-size: 13px;
+
+  line-height: 1.43;
+  text-align: left;
+  color: #000;
+}
+.avenueIcons ul li {
+  margin-bottom: 8px;
+}
+.avenueIcons ul li a {
+  opacity: 1 !important;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 50px 20px 89px 30px;
+  }
+
+  #footerLogo {
+    width: 70% !important;
+  }
+
+  #footerLogo ~ h4 {
+    display: none;
+  }
+}

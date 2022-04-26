@@ -1,0 +1,195 @@
+.wrapper {
+  font-family: 'Poppins' !important;
+  letter-spacing: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+
+  .containerFluid1 {
+    height: 100%;
+    padding: 18rem 10rem 0 10rem;
+    -webkit-backdrop-filter: blur(27px);
+    backdrop-filter: blur(27px) brightness(0.8);
+  }
+  /* .containerFluid1 .heading {
+  width: 100%;
+} */
+
+  .containerFluid1 .signupcard {
+    /* margin: 0 61.5px 27px 68px; */
+    padding: 4px 28px 32px 32px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: #fff;
+    max-width: 626px;
+  }
+  .containerFluid1 .signupcard .closeBlack {
+    margin: 20px 0 4px 169px;
+    cursor: pointer;
+  }
+  .containerFluid1 .signupcard h1 {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #303030;
+  }
+  .containerFluid1 .signupcard .firstP {
+    margin-top: -8px;
+    font-size: 13.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #30303081;
+  }
+
+  .containerFluid1 .form {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .containerFluid1 .loginForm {
+    border-right: solid 1px rgba(196, 196, 196, 0.253);
+    @media screen and (max-width: 768px) {
+      border: none;
+    }
+  }
+
+  .containerFluid1 .loginForm input {
+    width: 93%;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.068);
+    padding-left: 20px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .containerFluid1 .loginForm input::placeholder {
+    font-size: 14px;
+  }
+
+  .containerFluid1 .signupbutton {
+    border: none;
+    padding: 8px 0;
+    background-color: #ff7623;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+  }
+  .containerFluid1 .login {
+    font-size: 13px;
+    font-weight: 600;
+    color: #3030307a;
+    margin-left: 5px;
+    align-self: center;
+  }
+  .containerFluid1 .login a {
+    text-decoration: none;
+    color: #ff7623;
+  }
+  .containerFluid1 .loginButtons button {
+    margin: 10px 0 15px 20px;
+    padding: 8px 0px;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 6px 12px 0 rgba(28, 28, 28, 0.05);
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.473);
+  }
+  .containerFluid1 .loginButtons button img {
+    width: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .containerFluid1 .signupbutton {
+      height: 40px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .signupcard {
+      width: 70vw;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .signupcard {
+      min-width: 626px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    body {
+      padding: 0;
+      height: 100%;
+    }
+
+    .containerFluid1 {
+      padding: 0;
+      background: #fff;
+    }
+
+    .containerFluid1 .signupcard {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      margin: 0;
+      padding: 0 25px;
+    }
+    .containerFluid1 .signupcard .closeBlack {
+      width: 20px;
+      float: left !important;
+      margin: 7rem 0 0 0;
+      content: url(https://img.icons8.com/material-outlined/24/000000/delete-sign.png);
+    }
+    .containerFluid1 .signupcard h1 {
+      margin-top: 130px;
+      font-size: 22px;
+    }
+    .containerFluid1 .signupcard .firstP {
+      padding-top: 5px;
+      padding-right: 20px;
+    }
+    .containerFluid1 .loginForm {
+      border: none;
+    }
+    .containerFluid1 .loginForm input {
+      width: 100%;
+      height: 50px;
+    }
+    .containerFluid1 .signupbutton {
+      margin-top: 30px;
+      width: 85%;
+    }
+    .containerFluid1 .login {
+      width: 70%;
+      text-align: center;
+      padding: 5px 0 20px 0;
+      border-bottom: solid 1px rgba(196, 196, 196, 0.253);
+    }
+    .container .loginButtons {
+      margin-bottom: 230px;
+    }
+    .container .loginButtons button {
+      padding: 10px 0;
+    }
+    .container .loginButtons button img {
+      width: 25px;
+    }
+  }
+}

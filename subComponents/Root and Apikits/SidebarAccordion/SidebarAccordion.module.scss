@@ -1,0 +1,24 @@
+#bodyList {
+  margin-bottom: 0;
+  li {
+    height: 3.2rem;
+    line-height: 1.33;
+    a {
+      font-size: 1.2rem;
+      color: rgba(0, 0, 0, 0.473);
+    }
+  }
+}
+.menuactive{
+  color: #ff7623 !important;
+}
+#accButton {
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 8px;
+  padding-left: 2.5rem;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
+}

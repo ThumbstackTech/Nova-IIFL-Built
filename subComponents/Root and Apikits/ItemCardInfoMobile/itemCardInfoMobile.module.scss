@@ -1,0 +1,12 @@
+.successRate {
+  border-left: solid 2px #d4d4d4;
+  border-right: solid 2px #d4d4d4;
+}
+@media (min-width: 480px) and (max-width: 576px) {
+  #delete {
+    justify-content: space-around !important;
+  }
+  #success {
+    padding: 0 6rem !important;
+  }
+}

@@ -1,0 +1,83 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  .title {
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 0;
+    }
+    p {
+      // opacity: 0.48;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.48);
+      margin-bottom: 0;
+      display: flex;
+      div {
+        width: 9px;
+        height: 9px;
+        margin: 4px 8px 4px 0;
+        border-radius: 50%;
+        &.green {
+          background-color: #1ef78b;
+        }
+        &.red {
+          background-color: #f71e1e;
+        }
+        &.orange {
+          background-color: #f7be1e;
+        }
+      }
+    }
+  }
+  .tab {
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    .purchased {
+      padding: 5px 16px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      color: #ff7623;
+      &.activeTab {
+        background-color: #ff7623;
+        border-radius: 15px;
+        color: #fff;
+      }
+    }
+    .saved {
+      padding: 5px 32px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      color: #ff7623;
+      &.activeTab {
+        background-color: #ff7623;
+        border-radius: 15px;
+        color: #fff;
+      }
+    }
+  }
+
+  button {
+    padding: 8px 20px;
+    border-radius: 18px;
+    box-shadow: 0 6px 48px 0 rgba(28, 28, 28, 0.08);
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    svg {
+      margin-left: 8px;
+    }
+  }
+}

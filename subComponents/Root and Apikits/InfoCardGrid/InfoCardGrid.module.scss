@@ -1,0 +1,332 @@
+.infoCard {
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    padding: 2.4rem 4.5rem 7rem 3rem;
+    .card {
+      h2 {
+        width: 70%;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffff;
+        margin-bottom: 2rem;
+        letter-spacing: 0.056rem;
+        padding-left: 3rem;
+        @media screen and (max-width: 480px) {
+          width: 90%;
+        }
+      }
+      height: auto;
+      color: #ffff;
+      font-size: 4rem;
+      box-sizing: border-box;
+      border-radius: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      & > h4 {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffff;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        opacity: 0.85;
+        margin-bottom: 0;
+        width: 78%;
+      }
+      .chooseImg {
+        width: 3rem;
+        @media screen and (max-width: 480px) {
+          width: 30px;
+          top: 50px;
+        }
+      }
+      .choose {
+        display: flex;
+        padding-left: 3rem;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        .chooseSteps {
+          display: flex;
+          // gap: 3rem;
+          margin-bottom: 0;
+          li {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            p {
+              margin-top: 1rem;
+            }
+            img {
+              width: 2.8rem !important;
+              height: 2.8rem !important;
+            }
+          }
+        }
+        & > img {
+          width: 5.3rem;
+          height: 9.6rem;
+          padding-right: 2rem;
+          margin-top: -6rem;
+        }
+        @media screen and(max-width:480px) {
+          margin-top: -50px;
+        }
+      }
+      .linkBtn {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.8rem 3.4rem 1.8rem 3.2rem;
+        border-radius: 20px;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.205);
+        backdrop-filter: blur(0.5rem);
+        position: relative;
+        z-index: 2;
+
+        a {
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: #0071e3;
+          background: #fff;
+          border-radius: 20px;
+          padding: 1rem 2.5rem;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          position: relative;
+          z-index: 2;
+          img {
+            width: 1.4rem;
+            height: 1.4rem;
+          }
+          @media screen and(max-width:480px) {
+            font-size: 14px;
+          }
+        }
+        .bgGradient {
+          right: 0rem;
+          bottom: 0rem;
+          height: 18rem;
+        }
+      }
+      .bgGradient {
+        width: 100%;
+        height: 90%;
+        background-image: linear-gradient(
+          373deg,
+          #ff7623 0%,
+          #f35e56 1%,
+          rgba(244, 92, 87, 0) 63%
+        );
+        position: absolute;
+        border-radius: 20px;
+        z-index: 1;
+      }
+      &:first-of-type {
+        background-image: linear-gradient(299deg, #ff6000 7%, #a92fa4 52%);
+        padding-top: 2.6rem;
+        .linkBtn {
+          margin-top: 10px;
+          @media screen and (max-width: 480px) {
+            justify-content: end !important;
+          }
+        }
+      }
+      &:nth-child(2) {
+        background-image: linear-gradient(301deg, #1aa9d6 15%, #0b60f3 85%);
+        padding-top: 2.4rem;
+        h2,
+        p {
+          padding-left: 2.4rem;
+        }
+        & > .key {
+          width: 6.2rem;
+          top: 2rem;
+          left: 3rem;
+          @media screen and(max-width:480px) {
+            width: 32px;
+          }
+        }
+        .linkBtn {
+          // justify-content: end;
+          white-space: nowrap;
+        }
+      }
+      &:last-of-type {
+        padding-top: 2.4rem;
+        background-image: url(/images/Mask\ Group\ 14361.png);
+        background-size: 120%;
+        h4,
+        p,
+        img {
+          padding-left: 2.4rem;
+        }
+        p {
+          margin-bottom: 2rem;
+        }
+        .linkBtn {
+          justify-content: end;
+          background-color: #ffc6c6;
+          a {
+            padding: 1rem;
+            gap: 0.5rem;
+
+            white-space: nowrap;
+          }
+        }
+        & > .playbutton {
+          width: 6.1rem;
+          height: 4.1rem;
+          margin-bottom: 3.2rem;
+          z-index: 1;
+          padding-left: 2.4rem;
+          @media screen and(max-width:480px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .linkBtn a:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    background-color: rgb(12, 12, 12);
+  }
+}
+@media screen and (max-width: 769px) {
+  .infoCard {
+    overflow-y: scroll;
+  }
+
+  .container {
+    grid-template-columns: unset !important;
+    grid-template-areas:
+      "f s"
+      "f t";
+  }
+
+  .linkBtn p {
+    display: none;
+  }
+
+  .card .linkBtn {
+    padding: 1rem 2rem;
+    justify-content: end;
+  }
+
+  .container .card:first-child {
+    height: auto;
+    grid-area: f;
+    min-width: 210px;
+    min-height: 351px;
+  }
+  .container .card:nth-child(2) {
+    grid-area: s;
+    // height: 23rem;
+    min-width: 204px;
+    min-height: 183px;
+  }
+  .container .card:last-child {
+    grid-area: t;
+    // height: 20rem;
+    background-size: cover;
+    background-position: top;
+    min-width: 204px;
+    min-height: 152px;
+  }
+
+  .card:first-child .choose > img {
+    margin: 0;
+  }
+
+  .card:first-child .choose .chooseSteps {
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    padding-left: 2.4rem;
+    width: 98%;
+  }
+
+  .card:nth-child(2) > h2 {
+    margin: 0;
+  }
+
+  .card:last-child > h2 {
+    margin-bottom: 1rem;
+  }
+
+  .card:last-child .linkBtn {
+    padding: 1rem 2rem;
+  }
+
+  .card:last-child > p {
+    margin-bottom: 0rem;
+  }
+
+  .card:last-child > img {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .infoCard {
+    .container {
+      // width: 50rem !important;
+      padding: 2.4rem 4.5rem 7rem 2rem !important;
+      .card:nth-child(2) {
+        //   height: 19.4rem !important;
+        h1 {
+          font-size: 2.8rem !important;
+        }
+        & > h1 {
+          padding-left: 1.5rem !important;
+        }
+        img {
+          width: 3.2rem !important;
+        }
+        &:last-of-type {
+          font-size: 2.8rem !important;
+          height: 15.2rem !important;
+          & > img {
+            display: none !important;
+          }
+        }
+        .card > h1 {
+          padding-left: 1.5rem;
+        }
+
+        .card:first-child .choose {
+          padding-left: 1.5rem;
+        }
+      }
+      .card {
+        .choose .chooseSteps li {
+          flex-direction: row !important;
+          gap: 1rem;
+          align-items: center;
+          p {
+            font-size: 12px !important;
+          }
+        }
+      }
+    }
+  }
+}
+.imageSteps{
+  left: -95px !important;
+}
+.imageSteps3{
+  left: -150px !important;
+}

@@ -1,0 +1,82 @@
+.card3 {
+  min-width: 240px;
+  min-height: 280px;
+  height: 28rem;
+  max-height: 306px;
+  flex: 0 0 24rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0.3rem 3.2rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card3Logo {
+  width: 100px;
+  height: 100px;
+}
+
+.card3Info {
+  padding: 0 24px 24px 24px;
+}
+
+.card3InfoHeading {
+  font-size: clamp(18px, 1.8rem, 19.9px);
+  font-weight: 600;
+  color: #000d4cd5;
+}
+
+.card3InfoP {
+  font-size: clamp(12px, 1.2rem, 15px);
+  opacity: 0.3;
+  font-weight: 600;
+}
+
+.card3InfoP2 {
+  display: flex;
+  font-size: clamp(12px, 1.2rem, 15px);
+  gap: 1rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.card3InfoPSpan {
+  font-size: clamp(10px, 1rem, 12px);
+  font-weight: 600;
+  padding: 0.2rem 0.8rem;
+  background-color: #ccf5cc;
+  color: #3ea741;
+  border-radius: 10px;
+}
+
+.card2InfoInnerSpan3 {
+  display: block;
+  font-size: clamp(12px, 1.2rem, 15px);
+  color: #000;
+  opacity: 0.6;
+  font-weight: normal;
+  bottom: -5px;
+}
+
+.card2Hr {
+  border: none;
+  border-top: 0.1rem solid #000;
+  opacity: 0.15;
+  margin-bottom: 1rem;
+}
+
+.card2Bottom {
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.card2BottomStarsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.card2BottomStarImg {
+  width: 1.66rem;
+  height: 1.67rem;
+  margin-right: 5px;
+}

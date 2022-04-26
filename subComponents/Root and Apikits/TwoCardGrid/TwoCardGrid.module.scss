@@ -1,0 +1,136 @@
+.infoCard {
+  .heading {
+    font-size: clamp(24px, 2.8rem, 2.8rem);
+    font-weight: 600;
+    line-height: 1.79;
+    color: #000d4c;
+    margin: 0 0 0 3rem;
+  }
+  .container {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 4.5rem 5rem 3rem;
+    .card {
+      height: 23rem;
+      width: 52rem;
+      min-width: 245px;
+      min-height: 245px;
+      h2 {
+        width: 84%;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.33;
+        color: #ffff;
+        letter-spacing: 0.056rem;
+        padding-left: 2.4rem;
+        @media screen and (max-width: 786px) {
+          font-size: 18px;
+        }
+      }
+      color: #ffff;
+      font-size: 4rem;
+      box-sizing: border-box;
+      border-radius: 20px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      & > h4 {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffff;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 12px;
+        opacity: 0.85;
+        margin-bottom: 0;
+        white-space: normal;
+        width: 85%;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+      .bgImg {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+      }
+      .linkBtn {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 24px 16px 30px;
+        border-radius: 20px;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.205);
+        backdrop-filter: blur(0.5rem);
+        position: relative;
+        z-index: 2;
+        @media screen and (max-width: 480px) {
+          justify-content: flex-end;
+        }
+
+        a {
+          font-size: 14px;
+          font-weight: 600;
+          color: #0071e3;
+          background: #fff;
+          border-radius: 20px;
+          padding: 0.8rem 2.38rem 0.8rem 2.4rem;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          position: relative;
+          z-index: 2;
+          img {
+            width: 1.4rem;
+            height: 1.4rem;
+          }
+          @media screen and(max-width:480px) {
+            font-size: 14px;
+            padding: 8px 23.8px 8px 24px;
+          }
+        }
+      }
+      &:first-of-type {
+        background-image: linear-gradient(301deg, #c0f786 15%, #11b9c8 85%);
+        padding-top: 3rem;
+        .linkBtn {
+          justify-content: flex-end;
+          white-space: nowrap;
+        }
+      }
+      &:nth-child(2) {
+        background-image: linear-gradient(301deg, #1aa9d6 15%, #0b60f3 85%);
+
+        padding-top: 3rem;
+        h2 {
+          padding-left: 2.4rem;
+        }
+        p {
+          width: 85%;
+          opacity: 0.6;
+          font-size: 12px;
+        }
+        & > .key {
+          width: 6.2rem;
+          top: 2rem;
+          left: 3rem;
+        }
+        .linkBtn {
+          justify-content: flex-end;
+          white-space: nowrap;
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      overflow-y: scroll;
+    }
+  }
+}
+.infoCard::-webkit-scrollbar {
+  display: none;
+}

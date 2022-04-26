@@ -1,0 +1,19 @@
+.modalOpen {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#main {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  .body {
+    flex-grow: 1;
+    width: 79.5%;
+  }
+}
+.Layout {
+  display: flex;
+}

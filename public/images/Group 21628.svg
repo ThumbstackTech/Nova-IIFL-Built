@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.999" height="37" viewBox="0 0 131.999 37">
+    <defs>
+        <linearGradient id="a" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f0601f"/>
+            <stop offset="1" stop-color="#f49266"/>
+        </linearGradient>
+        <linearGradient id="b" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f16c30"/>
+            <stop offset="1" stop-color="#f48e60"/>
+        </linearGradient>
+        <linearGradient id="c" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f16e33"/>
+            <stop offset="1" stop-color="#f5956a"/>
+        </linearGradient>
+        <linearGradient id="d" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f16d32"/>
+            <stop offset="1" stop-color="#f59468"/>
+        </linearGradient>
+        <linearGradient id="e" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f06223"/>
+            <stop offset="1" stop-color="#f4966b"/>
+        </linearGradient>
+        <linearGradient id="f" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f06121"/>
+            <stop offset="1" stop-color="#f59468"/>
+        </linearGradient>
+        <linearGradient id="g" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f05d1b"/>
+            <stop offset="1" stop-color="#f49468"/>
+        </linearGradient>
+        <linearGradient id="h" x1="-.207" y1=".5" x2="1.207" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f05e1d"/>
+            <stop offset="1" stop-color="#f59265"/>
+        </linearGradient>
+        <linearGradient id="i" y1=".5" x2="1" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ef5713"/>
+            <stop offset="1" stop-color="#f5986e"/>
+        </linearGradient>
+        <linearGradient id="j" y1=".5" x2="1" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ef5f1f"/>
+            <stop offset="1" stop-color="#f5976c"/>
+        </linearGradient>
+        <linearGradient id="k" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#f05f1f"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 21628">
+        <g data-name="Group 21629">
+            <g style="opacity:.85">
+                <text transform="translate(55.999 28)" style="stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;font-size:26px;font-family:Jura;letter-spacing:.088em" data-name="Group 19605"><tspan x="0" y="0">NOVA</tspan></text>
+            </g>
+            <g data-name="Group 19606">
+                <path data-name="Path 16889" d="m244.072 254.767-.386.393v-.772z" transform="translate(-227.157 -237.394)" style="fill:#a75eff"/>
+                <g data-name="Group 19140">
+                    <path data-name="Rectangle 5428" transform="rotate(-45.569 20.844 .797)" style="fill:url(#a)" d="M0 0h5.315v5.315H0z"/>
+                    <path data-name="Rectangle 5429" transform="rotate(-45.57 19.32 -7.67)" style="fill:url(#b)" d="M0 0h2.691v2.691H0z"/>
+                    <path data-name="Rectangle 5430" transform="rotate(-45.569 27.108 -6.53)" style="fill:url(#c)" d="M0 0h2.956v2.956H0z"/>
+                    <path data-name="Rectangle 5431" transform="rotate(-45.57 14.266 -7.397)" style="fill:url(#d)" d="M0 0h1.861v1.861H0z"/>
+                    <path data-name="Rectangle 5432" transform="rotate(-45.568 23.866 10.024)" style="fill:url(#e)" d="M0 0h1.285v1.285H0z"/>
+                    <path data-name="Rectangle 5433" transform="rotate(-45.569 27.395 5.67)" style="fill:url(#f)" d="M0 0h3.507v3.507H0z"/>
+                    <path data-name="Rectangle 5434" transform="rotate(-45.569 19.793 6.858)" style="fill:url(#g)" d="M0 0h2.381v2.381H0z"/>
+                    <path data-name="Rectangle 5435" transform="rotate(-45.57 14.082 1.652)" style="fill:url(#h)" d="M0 0h3.534v3.534H0z"/>
+                    <path data-name="Path 16891" d="M221.839 191.642a14.842 14.842 0 0 0-9.51 4.738l3.788 3.914-1.858 2 3.291 3.4-3.715 3.994-1.895-1.958-3.5 3.763a15.437 15.437 0 0 0 13.715 12.059l-.234-24.873h6.072l4.688 6.274v-13.311z" transform="translate(-199.345 -188.552)" style="fill:url(#i)"/>
+                </g>
+                <path data-name="Path 16892" d="M312.878 191.645h-.8v24.874h-5.885l-4.576-6.273v13.309h11.265c2.861 0 5.181-3.267 5.181-7.3v-17.312c-.005-4.031-2.324-7.298-5.185-7.298z" transform="translate(-272.852 -188.554)" style="fill:url(#j)"/>
+                <path data-name="Path 16894" d="M358.655 252.1h-5.985v10.658h1.7c2.365 0 4.282-2.5 4.282-5.588z" transform="translate(-313.448 -235.084)" style="mix-blend-mode:multiply;isolation:isolate;fill:url(#k)"/>
+            </g>
+        </g>
+    </g>
+</svg>
